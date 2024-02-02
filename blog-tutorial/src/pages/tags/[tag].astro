@@ -4,6 +4,7 @@ import BlogPost from '../../components/BlogPost.astro';
 
 interface Frontmatter {
   frontmatter: {tags: string[]; title: string};
+  url: string;
 }
 
 export async function getStaticPaths() {
